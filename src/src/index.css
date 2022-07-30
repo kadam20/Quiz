@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Red Hat Mono', monospace;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+}
+
+.title{
+  text-align: center;
+}
+
+h1{
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px #5D6961;
+}
+
+.yellow{
+  background: #FFE285;
+}
+
+.question--container{
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+button{
+  margin: 10px 5px;
+  background: none;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  box-shadow: 1px 1px #5D6961;
+  cursor: pointer;
+  width: 100px;
+  background: #FFF;
+}
+
+.navigator{
+  display: flex;
+  justify-content: center;
+}
+
+.navigator > button{
+  width: 150px;
+  height: 50px;
+  background: #565EFF;
+  color: #fff;
+  margin-left: 10px; 
+  font-size: 1.2rem;
+}
+
+.points{
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+}
